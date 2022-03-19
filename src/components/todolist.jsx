@@ -8,13 +8,13 @@ class Todolist extends Component {
     todos: [
       {
         id: 1,
-        value: "todo 1",
-        completed: false,
+        value: "Mengerjakan Exercise",
+        completed: true,
       },
       {
         id: 2,
-        value: "todo 2",
-        completed: true,
+        value: "Mengerjakan Assignment",
+        completed: false,
       },
       {
         id: 3,
