@@ -18,7 +18,7 @@ class Todolist extends Component {
       },
       {
         id: 3,
-        value: "todo 3",
+        value: "Membuat Resume",
         completed: false,
       },
     ],
