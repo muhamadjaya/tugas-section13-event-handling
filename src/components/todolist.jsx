@@ -58,6 +58,7 @@ class Todolist extends Component {
       });
       this.setState({ addTodoValue: "", todos });
     } else {
+      alert("Please Add Todo Text");
       console.log("Please Add Todo Text");
     }
   };
