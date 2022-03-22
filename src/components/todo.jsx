@@ -25,7 +25,12 @@ class Todo extends Component {
   }
 
   renderTodo() {
-    if (this.props.todo.completed) return <s>{this.props.todo.value}</s>;
+    if (this.props.todo.completed)
+      return (
+        <s>
+          <i>{this.props.todo.value}</i>
+        </s>
+      );
     else return this.props.todo.value;
   }
 }
